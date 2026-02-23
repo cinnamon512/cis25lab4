@@ -19,14 +19,6 @@ void getScores(double* arr, int size) {
 }
 
 void sortScores(double* arr, int size) {
-    // for (int i = 0; i < size; i++) {
-    //     int temp = arr[i];
-    //     if (arr[i] > arr[i + 1]) {
-    //         arr[i] = arr[i + 1];
-    //         arr[i + 1] = temp;
-    //     }
-    // }
-
     for (int i = 0; i < size - 1; i++) {
         for (int j = 0; j < size - 1; j++) {
             double temp = arr[j];

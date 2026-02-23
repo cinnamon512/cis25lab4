@@ -3,4 +3,4 @@ project(DynamicGrades)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(DynamicGrades main.cpp)
+add_executable(DynamicGrades DynamicGrades.cpp)
